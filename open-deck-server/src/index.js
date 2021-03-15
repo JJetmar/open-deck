@@ -4,7 +4,7 @@ const express = require('express');
 const appVersion = require('../package').version;
 const path = require('path');
 
-console.log(`       ______
+console.log(`   ______
  /|      |
 / | OPEN |
 | | DECK |
