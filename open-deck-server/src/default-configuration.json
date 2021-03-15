@@ -1,0 +1,72 @@
+{
+  "port": 48888,
+  "background": "https://cdn.pling.com/img/e/5/d/a/8e4b1a99e3152ea8ad0574ed875e29708b543075c97948e02b76e877255615861641.jpg",
+  "buttons": [
+    {
+      "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/keyboard.svg",
+      "text": "Hello world",
+      "title": "Type hello world!",
+      "style": {
+        "background": "#ff0000"
+      },
+      "binds": [
+        { "key": "h", "event": "tap" },
+        { "key": "e", "event": "tap" },
+        { "key": "l", "event": "tap" },
+        { "key": "l", "event": "tap" },
+        { "key": "o", "event": "tap" },
+        { "key": " ", "event": "tap" },
+        { "key": "w", "event": "tap" },
+        { "key": "o", "event": "tap" },
+        { "key": "r", "event": "tap" },
+        { "key": "l", "event": "tap" },
+        { "key": "d", "event": "tap" },
+        { "key": "shift", "event": "down" },
+        { "key": "!", "event": "tap" },
+        { "key": "shift", "event": "up" }
+      ]
+    },
+    {
+      "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/volume-down.svg",
+      "text": "Volume ↓",
+      "title": "Volume down",
+      "binds": [
+        { "key": "audio_vol_down", "event": "tap" }
+      ]
+    },
+    {
+      "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/volume-up.svg",
+      "text": "Volume ↑",
+      "title": "Volume up",
+      "binds": [
+        { "key": "audio_vol_up", "event": "tap" }
+      ]
+    },
+    {
+      "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/copy.svg",
+      "text": "Example",
+      "tile": "Types example and duplicate it to the new line.",
+      "binds": [
+        { "key": "e", "event": "tap" },
+        { "key": "x", "event": "tap" },
+        { "key": "a", "event": "tap" },
+        { "key": "m", "event": "tap" },
+        { "key": "p", "event": "tap" },
+        { "key": "l", "event": "tap" },
+        { "key": "e", "event": "tap" },
+        { "key": "shift", "event": "down" },
+        { "key": "home", "event": "tap" },
+        { "key": "shift", "event": "up" },
+        { "key": "control", "event": "down" },
+        { "key": "c", "event": "tap" },
+        { "key": "control", "event": "up" },
+        { "key": "end", "event": "tap" },
+        { "key": "enter", "event": "tap" },
+        { "key": "control", "event": "down" },
+        { "key": "v", "event": "tap" },
+        { "key": "control", "event": "up" },
+        { "key": "enter", "event": "tap" }
+      ]
+    }
+  ]
+}

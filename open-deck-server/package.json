@@ -1,0 +1,25 @@
+{
+  "name": "open-deck-server",
+  "version": "0.0.1-alpha",
+  "description": "",
+  "main": "./src/index.js",
+  "bin": {
+    "open-deck": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-windows": "caxa --directory . --command \"{{caxa}}/node_modules/.bin/node\" \"{{caxa}}/src/index.js\" --output \"../bin/open-deck.exe\""
+  },
+  "author": "JJetmar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "robotjs": "git+https://github.com/octalmage/robotjs.git"
+  },
+  "devDependencies": {
+    "caxa": "^1.0.0"
+  },
+  "pkg": {
+    "assets": "public/**/*"
+  }
+}

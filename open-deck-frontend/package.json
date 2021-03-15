@@ -1,0 +1,20 @@
+{
+  "name": "open-deck-frontend",
+  "version": "0.0.1-alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-frontend": "parcel build index.html index.js --no-content-hash --no-source-maps -d ../open-deck-server/public"
+  },
+  "author": "JJetmar",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "nosleep.js": "^0.12.0",
+    "robotjs": "git+https://github.com/octalmage/robotjs.git",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
