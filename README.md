@@ -6,7 +6,7 @@ This project is currently in alpha version. More investigation about its usage a
 have to be done.
 
 ## Download and run
-The easiest way is to simple run binaries that can be downloaded in [Releases](https://github.com/JJetmar/open-deck/releases/fsd) section.
+The easiest way is to simple run binaries that can be downloaded in [Releases](https://github.com/JJetmar/open-deck/releases/) section.
 These binaries include Node.js runtime environment and all necessary requirements for running - this is a reason why the size of executable
 file is over 15 MB.
 
