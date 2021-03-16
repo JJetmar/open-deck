@@ -36,8 +36,8 @@ This file contains configuration for Open-Deck. In cases of changes, Open-Deck s
   "buttons": [
     {
       "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/keyboard.svg",
-      "text": "Hello world",
-      "title": "Type hello world!",
+      "text": "Type hello",
+      "title": "Types hello!",
       "style": {
         "background": "#ff0000"
       },
@@ -55,7 +55,7 @@ This file contains configuration for Open-Deck. In cases of changes, Open-Deck s
 - **port**&ast;: The port where application would be running.
 - **background**: URI to image that will be used for a background.
 - **buttons**: Sequence of user custom action buttons.
-  - **style**: Custom css styles for given button (see Style [Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp))
+  - **style**: Custom css styles for given button (see [Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp))
   - **icon**: URI to the image file that will be used as a button icon.
   - **binds**&ast;: Sequence of key events that will be performed on host PC, after given button is used.
     - **key**: Name of the key that should be binded (see [valid key codes](http://robotjs.io/docs/syntax#keys)) 
@@ -87,14 +87,14 @@ have to be installed. Then building of project can begin.
 ```shell
 cd open-deck-frontend
 npm install
-nom build-frontend
+npm build-frontend
 ```
 In case of *open-deck-frontend* a javascript file is transpiled
 into older version of ecma script and result is copied into the *open-deck-server* into its public static directory.
 ```shell
 cd open-deck-server
 npm install
-nom build-windows
+npm build-windows
 ```
 Building *open-deck-server* will create executable binary files for Linux, Mac and Windows platform.
 
