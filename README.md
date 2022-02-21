@@ -1,6 +1,8 @@
 # Open-Deck
 Solution for remote keypress control via web interface.
 
+# Binaries and build process currently seems to be broken.
+
 ## Proof of concept
 This project is currently in alpha version. More investigation about its usage and requirements for development
 have to be done.
